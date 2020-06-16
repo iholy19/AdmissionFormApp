@@ -1,0 +1,5 @@
+touch .gitattributes
+
+*.java linguist-vendored=false
+*.xml linguist-vendored=false
+*.xml linguist-detectable=true
