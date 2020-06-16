@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".homeActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3F729A"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/resultView"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logout"
+            android:background="#3F729A"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:id="@+id/btnLogOut"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="#3F729A"
+        android:background="#D9ECF4"
+        android:text="Welcome to SSN College of Engineering"/>
+    <ImageView
+        android:layout_width="728dp"
+        android:layout_height="282dp"
+        android:src="@drawable/ssn1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/formins1"
+        android:text="Your admission form is under review."
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/formins"
+        android:text="Click the below button to fill the admission form"
+
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#3F729A"
+        android:textColor="#ffffff"
+        android:id="@+id/form"
+        android:text="Fill Form"/>
+
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#ffffff"
+    tools:context=".RegisterActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ONLINE ADMISSION IN"
+        android:layout_marginTop="40dp"
+        android:textColor="#3F729A"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="104dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ssn" />
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="70dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/u1"
+        android:hint="@string/username" />
+
+    <EditText
+        android:id="@+id/pword"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:background="#ffffff"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/p2"
+        android:hint="@string/password" />
+    <EditText
+        android:id="@+id/conf_pword"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/p2"
+        android:hint="@string/confirm_password" />
+    <Button
+        android:id="@+id/register"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="#3F729A"
+        android:text="Register"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="@string/already_registered"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/login"
+            android:textColor="#3F729A"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

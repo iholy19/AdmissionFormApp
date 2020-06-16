@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">app</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="not_registered">Not Registered</string>
+    <string name="register">REGISTER</string>
+    <string name="notregistered">Not Registered?</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_registered">Already registered?</string>
+    <string name="login">Login</string>
+    <string name="logout">LOGOUT</string>
+    <string name="dob">dob</string>
+    <string name="name">name</string>
+    <string name="name1">Name</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="father_s_name">Father\'s Name</string>
+    <string name="door_no_area">Door No, Area</string>
+    <string name="mothers_s_name">Mothers\'s Name</string>
+    <string name="city">city</string>
+    <string name="state">State</string>
+    <string name="pincode">Pincode</string>
+    <string name="your_mother_tongue">Your Mother Tongue</string>
+    <string name="note">Note</string>
+    <string name="upiid">UpiID</string>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>
