@@ -33,9 +33,9 @@ AdmissionFormApp/app/src/main/res/layout/
 
 * Download and open the folder in android studio app
 * In 'gpay.java' file, edit the variable values as follows (Read instructions to find the file)
-     > amount - set your desired admission fees price
-     > merchantName - set your name
-     > merchantUPIID - set your google pay UPI id
+     > * amount - set your desired admission fees price
+     > * merchantName - set your name
+     > * merchantUPIID - set your google pay UPI id
 * Onclicking the run, the first page for 'logging in' will be shown
 * Click on register before you login.
 * Fill the form and complete payment 
