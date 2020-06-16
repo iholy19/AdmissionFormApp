@@ -7,8 +7,8 @@ An android studio app for online college admission for the first years with adde
 
 ---
 
-Android studio app - https://developer.android.com/studio in your computer
-Google Pay app in your mobile
+* Android studio app - https://developer.android.com/studio in your computer
+* Google Pay app in your mobile
 ### Instructions 
 
 ---
